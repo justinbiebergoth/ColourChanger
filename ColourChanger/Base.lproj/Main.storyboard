@@ -85,23 +85,20 @@
                                                 <rect key="frame" x="-2" y="0.0" width="181" height="31"/>
                                                 <color key="minimumTrackTintColor" systemColor="systemRedColor"/>
                                                 <connections>
-                                                    <action selector="chagingColours" destination="BYZ-38-t0r" eventType="valueChanged" id="YxQ-Hq-WY5"/>
-                                                    <action selector="redSliderAction" destination="BYZ-38-t0r" eventType="valueChanged" id="zgG-9r-Rk1"/>
+                                                    <action selector="sliderAction:" destination="BYZ-38-t0r" eventType="valueChanged" id="Kib-5z-Imj"/>
                                                 </connections>
                                             </slider>
                                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="w37-0d-pIn">
                                                 <rect key="frame" x="-2" y="38" width="181" height="31"/>
                                                 <color key="minimumTrackTintColor" systemColor="systemGreenColor"/>
                                                 <connections>
-                                                    <action selector="chagingColours" destination="BYZ-38-t0r" eventType="valueChanged" id="MQh-h1-kXQ"/>
-                                                    <action selector="greenSliderAction" destination="BYZ-38-t0r" eventType="valueChanged" id="mKk-2w-Dea"/>
+                                                    <action selector="sliderAction:" destination="BYZ-38-t0r" eventType="valueChanged" id="ECf-ra-Kpa"/>
                                                 </connections>
                                             </slider>
                                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="Gc5-el-mqE">
                                                 <rect key="frame" x="-2" y="76" width="181" height="31"/>
                                                 <connections>
-                                                    <action selector="blueSliderAction" destination="BYZ-38-t0r" eventType="valueChanged" id="rvy-RG-cKB"/>
-                                                    <action selector="chagingColours" destination="BYZ-38-t0r" eventType="valueChanged" id="1rt-oj-w9l"/>
+                                                    <action selector="sliderAction:" destination="BYZ-38-t0r" eventType="valueChanged" id="fMZ-a3-WV5"/>
                                                 </connections>
                                             </slider>
                                         </subviews>
