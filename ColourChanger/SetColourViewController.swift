@@ -51,7 +51,7 @@ class SetColourViewController: UIViewController {
     }
 
     @IBAction func doneButtonPressed() {
-        delegate.setNewColour(for: viewColour)
+        delegate.setNewColour(for: colourView.backgroundColor ?? .white)
         dismiss(animated: true)
     }
     
