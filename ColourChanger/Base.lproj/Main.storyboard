@@ -17,14 +17,14 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ERL-Ye-ZG5">
-                                <rect key="frame" x="18" y="111" width="339" height="227"/>
+                                <rect key="frame" x="18" y="67" width="339" height="227"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="227" id="bbf-7u-3uw"/>
                                 </constraints>
                             </view>
                             <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="YGg-zb-Hhp">
-                                <rect key="frame" x="16" y="367" width="343" height="106"/>
+                                <rect key="frame" x="16" y="323" width="343" height="106"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="17" translatesAutoresizingMaskIntoConstraints="NO" id="qj9-ko-wJS">
                                         <rect key="frame" x="0.0" y="5.6666666666666856" width="51" height="95"/>
@@ -106,7 +106,7 @@
                                 </subviews>
                             </stackView>
                             <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0ut-y8-KM5">
-                                <rect key="frame" x="105" y="627.66666666666663" width="164" height="43.333333333333371"/>
+                                <rect key="frame" x="105" y="676.66666666666663" width="164" height="43.333333333333371"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Done">
                                     <fontDescription key="titleFontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="25"/>
@@ -163,7 +163,7 @@
                     <navigationItem key="navigationItem" id="ILu-mU-p52">
                         <barButtonItem key="rightBarButtonItem" title="Edit" id="lWG-jo-t6U">
                             <connections>
-                                <segue destination="BYZ-38-t0r" kind="show" id="ynF-ky-gdw"/>
+                                <segue destination="BYZ-38-t0r" kind="presentation" modalPresentationStyle="fullScreen" id="FwX-Cw-CSC"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>

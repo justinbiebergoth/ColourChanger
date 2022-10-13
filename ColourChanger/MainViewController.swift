@@ -13,7 +13,7 @@ protocol SetColourViewControllerDelegate {
 
 class MainViewController: UIViewController {
     
-    var viewColour: UIColor!
+
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
 
@@ -27,6 +27,6 @@ class MainViewController: UIViewController {
 }
 extension MainViewController: SetColourViewControllerDelegate {
     func setNewColour(for viewColour: UIColor) {
-        self.viewColour = view.backgroundColor
+        view.backgroundColor = viewColour
     }
 }
